@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
@@ -10,8 +10,8 @@ export function App({}: Props) {
     <>
       <Navbar />
       <Routes>
-        <Route path="Home" element={<Home />} />
-        <Route path="About" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </>
   );

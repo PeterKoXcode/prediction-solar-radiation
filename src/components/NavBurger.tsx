@@ -9,7 +9,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import Typography from "@mui/material/Typography";
 import "../fonts.css";
 
-const pages = ["Home", "About"];
+const pages = ["About"];
 
 export const NavMobile = () => {
   const [isOpen, setOpen] = useState(false);
@@ -39,7 +39,7 @@ export const NavMobile = () => {
           variant="h5"
           noWrap
           component="a"
-          href="#"
+          href="/"
           sx={{
             mr: 2,
             display: { xs: "flex", md: "none" },

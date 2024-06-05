@@ -10,7 +10,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import "../fonts.css";
 import { NavMobile } from "./NavBurger";
 
-const pages = ["Home", "About"];
+const pages = ["About"];
 
 export function Navbar() {
   return (
@@ -34,7 +34,7 @@ export function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="#"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
