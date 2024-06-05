@@ -52,7 +52,16 @@ export const NavMobile = () => {
             my: "auto",
           }}
         >
-          PROJECT SOLAR
+          <Link
+            style={{
+              textDecoration: "none",
+              color: "white",
+              fontFamily: "NOHEMI",
+            }}
+            to="/"
+          >
+            PROJECT SOLAR
+          </Link>
         </Typography>
       </div>
       <AnimatePresence>
@@ -71,6 +80,7 @@ export const NavMobile = () => {
                     display: "flex",
                     textDecoration: "none",
                     color: "white",
+                    fontFamily: "NOHEMI",
                   }}
                   to={`/${page}`}
                 >

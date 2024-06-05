@@ -14,7 +14,7 @@ const pages = ["About"];
 
 export function Navbar() {
   return (
-    <AppBar position="static" style={{ backgroundColor: "#0F1923"}}>
+    <AppBar position="static" style={{ backgroundColor: "#0F1923" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <ImageList
@@ -34,7 +34,7 @@ export function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href=""
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -45,7 +45,16 @@ export function Navbar() {
               textDecoration: "none",
             }}
           >
-            PROJECT SOLAR
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "white",
+                fontFamily: "NOHEMI",
+              }}
+              to='/'
+            >
+              PROJECT SOLAR
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
