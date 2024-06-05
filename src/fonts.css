@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'NOHEMI';
+    src: url('./assets/fonts/Nohemi-Regular-BF6438cc58b98fc.otf') format('otf'),
+         url('./assets/fonts/Nohemi-Regular-BF6438cc579d934.woff') format('woff'),
+         url('./assets/fonts/Nohemi-Regular-BF6438cc4d0e493.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NOHEMI';
+    src: url('./assets/fonts/Nohemi-Bold-BF6438cc5812315.otf') format('otf'),
+         url('./assets/fonts/Nohemi-Bold-BF6438cc577b524.woff') format('woff'),
+         url('./assets/fonts/Nohemi-Bold-BF6438cc587b5b5.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'NOHEMI';
+  }
+  
